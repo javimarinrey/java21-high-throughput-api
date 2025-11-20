@@ -24,6 +24,7 @@ docker run -p 8080:8080 java21-high-throughput-api
 
 ## Qué incluye
 - WebFlux + Netty (endpoint reactivo `/api/ping`)
+- Base Datos (R2DBC)
 - Actuator + Prometheus micrometer
 - Dockerfile
 # java21-high-throughput-api
