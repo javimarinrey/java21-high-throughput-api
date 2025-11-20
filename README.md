@@ -28,3 +28,7 @@ docker run -p 8080:8080 java21-high-throughput-api
 - Actuator + Prometheus micrometer
 - Dockerfile
 # java21-high-throughput-api
+
+
+## Test de carga (ejemplo con wrk, 100 conexiones, 10 seg)
+wrk -t12 -c100 -d10s http://localhost:8080/api/ping
